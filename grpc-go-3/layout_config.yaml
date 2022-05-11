@@ -1,0 +1,9 @@
+version: sdd/v1
+kind: layout
+metadata:
+ name: grpc-go/grpc-go-3
+ framework: grpc
+ language: go
+spec:
+ buildPath: "./cmd/$servicename/"
+ configPath: "./cmd/$servicename/config/"
